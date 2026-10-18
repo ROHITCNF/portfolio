@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rohit Srivastava — Frontend Engineer</title>
+<meta name="description" content="Frontend engineer building fast interfaces for real-time, data-heavy products. QR Login for 1M+ traders, industry-first trading charts, 60fps live fleet maps.">
+<meta name="author" content="Rohit Srivastava">
+<meta name="theme-color" content="#FBFBFD">
+<!-- TODO: set canonical + og:url + og:image to the final absolute URL once the domain is live -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rohit Srivastava — Frontend Engineer">
+<meta property="og:description" content="I build interfaces that stay fast when the data never stops.">
+<meta property="og:image" content="assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rohit Srivastava — Frontend Engineer">
+<meta name="twitter:description" content="I build interfaces that stay fast when the data never stops.">
+<meta name="twitter:image" content="assets/img/og.png">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/GeistMono-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<script>
+  (function () {
+    var t = null;
+    try { t = localStorage.getItem('theme'); } catch (e) {}
+    document.documentElement.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+  })();
+</script>
+<link rel="stylesheet" href="styles.css">
+<script src="main.js" defer></script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-out" viewBox="0 0 24 24"><path d="M7 17L17 7M8 7h9v9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></g></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="mark" href="#top">Rohit Srivastava</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a class="nl" href="#work">Work</a>
+      <a class="nl" href="#journey">Journey</a>
+      <a class="nl" href="#toolkit">Toolkit</a>
+      <a class="nl" href="#contact">Contact</a>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark mode">
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="wrap hero" id="top">
+    <div class="pills in1">
+      <span class="status"><span class="dot" aria-hidden="true"></span>Now building real-time fleet tracking at Intellicar</span>
+      <span class="status mono">LVL 07 · Senior Frontend</span>
+    </div>
+    <p class="name in2">Rohit Srivastava</p>
+    <h1 class="headline in3">I build interfaces that stay <span class="hl">fast</span> when the data never stops.</h1>
+    <p class="lede in4">Frontend engineer with 4 years shipping React, Next.js and React Native products for live trading and real-time fleet platforms — from industry-first charts to logins used by over a million traders.</p>
+    <div class="cta-row in5">
+      <a class="btn btn-primary" href="#work">See my work <svg width="16" height="16" aria-hidden="true"><use href="#i-down"/></svg></a>
+      <a class="btn btn-ghost" href="#journey">Walk the journey</a>
+    </div>
+    <div class="socials mono in5">
+      <a href="https://www.linkedin.com/in/rohitcnf/">LinkedIn <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
+      <a href="https://github.com/ROHITCNF">GitHub <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
+      <a href="https://x.com/cnf_rohit">X / Twitter <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
+      <a href="mailto:rohitcnfsecond@gmail.com">Email <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
+    </div>
+  </section>
+
+  <!-- Proof strip -->
+  <section class="wrap" aria-label="Impact at a glance">
+    <div class="proof">
+      <div class="stat rv"><div class="stat-num">1M+</div><div class="stat-label">active traders sign in with the QR Login I architected</div></div>
+      <div class="stat rv"><div class="stat-num">4s → &lt;2s</div><div class="stat-label">mobile chart load time after my performance tuning</div></div>
+      <div class="stat rv"><div class="stat-num">60fps</div><div class="stat-label">on live maps rendering high-volume GPS telemetry</div></div>
+      <div class="stat rv"><div class="stat-num">2</div><div class="stat-label">industry-first charting features shipped for Indian traders</div></div>
+    </div>
+  </section>
+
+  <!-- Selected work -->
+  <section class="wrap section" id="work">
+    <p class="eyebrow mono">Selected work</p>
+    <h2 class="h2">Things I’ve built.</h2>
+    <p class="sub">Side projects I build for myself, and the products I’ve shipped for teams.</p>
+
+    <div class="work-grid">
+      <article class="card wide rv">
+        <div class="media">
+          <!-- TODO: replace with <img src="assets/img/paper-trading.webp" alt="…" width="…" height="…" loading="lazy"> -->
+          <svg class="chart" viewBox="0 0 400 200" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M0 160 L40 140 L80 150 L120 110 L160 120 L200 80 L240 95 L280 60 L320 70 L360 35 L400 45" fill="none" stroke="var(--accent)" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>
+            <path d="M0 175 L40 168 L80 172 L120 150 L160 156 L200 135 L240 142 L280 120 L320 126 L360 104 L400 110" fill="none" stroke="var(--line)" stroke-width="2" vector-effect="non-scaling-stroke" stroke-dasharray="4 6"/>
+          </svg>
+          <span class="media-note mono">[ Add screenshot or demo GIF ]</span>
+        </div>
+        <div class="card-body">
+          <span class="pill mono">Side project · AI</span>
+          <h3 class="card-title">Paper Trading Platform</h3>
+          <p class="card-text">Trade live markets with virtual money, backtest strategies on historical data, and get AI-powered insight on every move — practice without the risk.</p>
+          <div class="chips mono">
+            <span class="chip">Next.js</span><span class="chip">React</span><span class="chip">Express</span><span class="chip">MongoDB</span><span class="chip">Redis</span><span class="chip">Fyers SDK</span><span class="chip">Gemini AI</span>
+          </div>
+          <div class="links">
+            <a href="https://your-paper-trading-link">Live demo <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a href="https://github.com/your-handle/paper-trading">Code <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card rv">
+        <div class="media">
+          <div class="lab-lines sharp" aria-hidden="true">
+            <span style="width:40%"></span><span style="width:85%"></span><span style="width:70%"></span><span style="width:78%"></span>
+          </div>
+          <span class="media-note mono">[ Add extension screenshot ]</span>
+        </div>
+        <div class="card-body">
+          <span class="pill mono">Chrome extension · DevTools</span>
+          <h3 class="card-title">Web Storage Inspector</h3>
+          <p class="card-text">View and manage Local Storage, Session Storage and Cookies in a clean, interactive UI — one click instead of digging through DevTools.</p>
+          <div class="chips mono"><span class="chip">JavaScript</span><span class="chip">Chrome APIs</span></div>
+          <div class="links">
+            <a href="https://your-chrome-store-link">Install <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a href="https://github.com/your-handle/web-storage-extension">Code <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card rv">
+        <div class="media">
+          <div class="blob blob-a" aria-hidden="true"></div>
+          <div class="blob blob-b" aria-hidden="true"></div>
+          <div class="lab-lines" aria-hidden="true">
+            <span style="width:55%"></span><span style="width:90%"></span><span style="width:72%"></span>
+          </div>
+          <span class="media-note mono">In the lab</span>
+        </div>
+        <div class="card-body">
+          <span class="pill mono">In development</span>
+          <h3 class="card-title">[ Next project name ]</h3>
+          <p class="card-text">[ One line on the problem it solves. This card flips to a full project once it ships. ]</p>
+          <div class="progress" role="img" aria-label="About 40% complete" style="--p:40%"><span></span></div>
+          <div class="chips mono"><span class="chip">[ Stack ]</span><span class="chip">ETA [ Month ]</span></div>
+        </div>
+      </article>
+    </div>
+
+    <div class="shipped-head">
+      <h3 class="shipped-title">Shipped at work</h3>
+      <span class="shipped-cos mono">FYERS · Intellicar</span>
+    </div>
+    <div class="shipped">
+      <div class="ship rv">
+        <span class="ship-co mono">FYERS · Auth</span>
+        <h4 class="ship-title">QR Login across web and mobile</h4>
+        <p class="ship-text">One scan to sign in, built for web (JavaScript) and mobile (Flutter) — faster onboarding for 1M+ active traders.</p>
+      </div>
+      <div class="ship rv">
+        <span class="ship-co mono">FYERS · Industry first</span>
+        <h4 class="ship-title">Open Interest profiling on charts</h4>
+        <p class="ship-text">OI profiles for stocks and indices drawn directly on TradingView candlestick charts with canvas.</p>
+      </div>
+      <div class="ship rv">
+        <span class="ship-co mono">FYERS · Industry first</span>
+        <h4 class="ship-title">Advanced Volume Indicator</h4>
+        <p class="ship-text">Aggregated constituent volumes so FYERS became the first Indian broker to visualise index volume.</p>
+      </div>
+      <div class="ship rv">
+        <span class="ship-co mono">Intellicar · Real-time</span>
+        <h4 class="ship-title">Fleet management console</h4>
+        <p class="ship-text">Live vehicle positions on Google Maps from continuous GPS streams, with history views held at 60fps.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Journey -->
+  <section class="wrap section" id="journey">
+    <p class="eyebrow mono">The journey</p>
+    <h2 class="h2">Level by level.</h2>
+    <p class="sub">Every stop on the road unlocked something new. Scroll to walk it.</p>
+
+    <ol class="road">
+
+      <li class="lvl">
+        <div class="lvl-card"><div class="lvl-panel">
+          <p class="lvl-meta mono">2019 · Level 01</p>
+          <h3 class="lvl-title">Spawned at NIT Jalandhar</h3>
+          <p class="lvl-text">Started a B.Tech at the National Institute of Technology, Jalandhar — and the habit of solving problems by building things.</p>
+          <div class="unlock"><span class="unlock-label mono">Unlocked</span><span class="chip acc mono">CS fundamentals</span><span class="chip acc mono">Problem solving</span></div>
+        </div></div>
+        <div class="rail" aria-hidden="true">
+          <svg class="seg" viewBox="0 0 100 100" preserveAspectRatio="none"><path class="track" d="M50 0 C50 38 18 34 18 50 S50 62 50 100" vector-effect="non-scaling-stroke"/><path class="draw" d="M50 0 C50 38 18 34 18 50 S50 62 50 100" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+          <span class="node mono">01</span>
+        </div>
+        <div class="lvl-num" aria-hidden="true">01</div>
+      </li>
+
+      <li class="lvl flip">
+        <div class="lvl-card"><div class="lvl-panel">
+          <p class="lvl-meta mono">Dec 2022 · Level 02</p>
+          <h3 class="lvl-title">Entered the markets at FYERS</h3>
+          <p class="lvl-text">Joined as a Software Engineer while finishing my final year, building the web trading experience for live-market traders.</p>
+          <div class="unlock"><span class="unlock-label mono">Unlocked</span><span class="chip acc mono">JavaScript</span><span class="chip acc mono">Trading UIs</span><span class="chip acc mono">User feedback loops</span></div>
+        </div></div>
+        <div class="rail" aria-hidden="true">
+          <svg class="seg" viewBox="0 0 100 100" preserveAspectRatio="none"><path class="track" d="M50 0 C50 38 82 34 82 50 S50 62 50 100" vector-effect="non-scaling-stroke"/><path class="draw" d="M50 0 C50 38 82 34 82 50 S50 62 50 100" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+          <span class="node mono">02</span>
+        </div>
+        <div class="lvl-num" aria-hidden="true">02</div>
+      </li>
+
+      <li class="lvl">
+        <div class="lvl-card"><div class="lvl-panel">
+          <p class="lvl-meta mono">2023 · Level 03</p>
+          <h3 class="lvl-title">One scan, a million logins</h3>
+          <p class="lvl-text">Graduated, and architected QR Login across web and Flutter mobile — a one-scan sign-in for more than a million active traders.</p>
+          <div class="unlock"><span class="unlock-label mono">Unlocked</span><span class="chip acc mono">Auth systems</span><span class="chip acc mono">Flutter</span><span class="chip acc mono">Scale</span></div>
+        </div></div>
+        <div class="rail" aria-hidden="true">
+          <svg class="seg" viewBox="0 0 100 100" preserveAspectRatio="none"><path class="track" d="M50 0 C50 38 18 34 18 50 S50 62 50 100" vector-effect="non-scaling-stroke"/><path class="draw" d="M50 0 C50 38 18 34 18 50 S50 62 50 100" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+          <span class="node mono">03</span>
+        </div>
+        <div class="lvl-num" aria-hidden="true">03</div>
+      </li>
+
+      <li class="lvl flip">
+        <div class="lvl-card"><div class="lvl-panel">
+          <p class="lvl-meta mono">FYERS · Level 04</p>
+          <h3 class="lvl-title">Industry firsts</h3>
+          <p class="lvl-text">Drew Open Interest profiles on TradingView charts with canvas, launched index volume visualisation no Indian broker had, and cut chart load from 4s to under 2s.</p>
+          <div class="unlock"><span class="unlock-label mono">Unlocked</span><span class="chip acc mono">Canvas</span><span class="chip acc mono">Data viz</span><span class="chip acc mono">Web performance</span></div>
+        </div></div>
+        <div class="rail" aria-hidden="true">
+          <svg class="seg" viewBox="0 0 100 100" preserveAspectRatio="none"><path class="track" d="M50 0 C50 38 82 34 82 50 S50 62 50 100" vector-effect="non-scaling-stroke"/><path class="draw" d="M50 0 C50 38 82 34 82 50 S50 62 50 100" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+          <span class="node mono">04</span>
+        </div>
+        <div class="lvl-num" aria-hidden="true">04</div>
+      </li>
+
+      <li class="lvl">
+        <div class="lvl-card"><div class="lvl-panel">
+          <p class="lvl-meta mono">FYERS · Level 05</p>
+          <h3 class="lvl-title">Boss level: trading systems</h3>
+          <p class="lvl-text">Led Smart Orders, a JavaScript algorithmic trading engine, and engineered the Margin Trading Facility that grew into a major revenue line.</p>
+          <div class="unlock"><span class="unlock-label mono">Unlocked</span><span class="chip acc mono">System design</span><span class="chip acc mono">Leading builds</span><span class="chip acc mono">Revenue impact</span></div>
+        </div></div>
+        <div class="rail" aria-hidden="true">
+          <svg class="seg" viewBox="0 0 100 100" preserveAspectRatio="none"><path class="track" d="M50 0 C50 38 18 34 18 50 S50 62 50 100" vector-effect="non-scaling-stroke"/><path class="draw" d="M50 0 C50 38 18 34 18 50 S50 62 50 100" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+          <span class="node mono">05</span>
+        </div>
+        <div class="lvl-num" aria-hidden="true">05</div>
+      </li>
+
+      <li class="lvl flip">
+        <div class="lvl-card"><div class="lvl-panel">
+          <p class="lvl-meta mono">Feb 2026 · Level 06</p>
+          <h3 class="lvl-title">Real-time at Intellicar</h3>
+          <p class="lvl-text">Senior Frontend Developer on a fleet console tracking commercial vehicles live, plus a React Native app sharing logic with the web.</p>
+          <div class="unlock"><span class="unlock-label mono">Unlocked</span><span class="chip acc mono">React Native</span><span class="chip acc mono">Expo</span><span class="chip acc mono">React Query</span><span class="chip acc mono">Maps at 60fps</span></div>
+        </div></div>
+        <div class="rail" aria-hidden="true">
+          <svg class="seg" viewBox="0 0 100 100" preserveAspectRatio="none"><path class="track" d="M50 0 C50 38 82 34 82 50 S50 62 50 100" vector-effect="non-scaling-stroke"/><path class="draw" d="M50 0 C50 38 82 34 82 50 S50 62 50 100" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+          <span class="node mono">06</span>
+        </div>
+        <div class="lvl-num" aria-hidden="true">06</div>
+      </li>
+
+      <li class="lvl" aria-current="step">
+        <div class="lvl-card"><div class="lvl-panel here">
+          <p class="lvl-meta mono">Now · Level 07 · You are here</p>
+          <h3 class="lvl-title">Building AI-native</h3>
+          <p class="lvl-text">Set team-wide Claude Code standards — shared CLAUDE.md and reusable commands for APIs, forms and code review — and building the Paper Trading Platform on the side.</p>
+          <div class="unlock"><span class="unlock-label mono">Unlocking</span><span class="chip acc mono">AI-driven development</span><span class="chip acc mono">Team tooling</span></div>
+        </div></div>
+        <div class="rail" aria-hidden="true">
+          <svg class="seg" viewBox="0 0 100 100" preserveAspectRatio="none"><path class="future" d="M50 14 L50 100" vector-effect="non-scaling-stroke"/></svg>
+          <span class="node node-now mono">07</span>
+        </div>
+        <div class="lvl-num" aria-hidden="true">07</div>
+      </li>
+
+      <li class="lvl flip next">
+        <div class="lvl-card"><div class="lvl-panel ghost">
+          <p class="lvl-meta mono">Next level</p>
+          <h3 class="lvl-title">Loading<span class="dots" aria-hidden="true">...</span></h3>
+          <p class="lvl-text">[ Your next goal — the thing you want people to know you’re heading toward. ]</p>
+        </div></div>
+        <div class="rail" aria-hidden="true">
+          <span class="node node-next mono">08</span>
+        </div>
+        <div class="lvl-num" aria-hidden="true">08</div>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- Toolkit -->
+  <section class="wrap section" id="toolkit">
+    <p class="eyebrow mono">Toolkit</p>
+    <h2 class="h2">What I build with.</h2>
+    <div class="tk">
+      <div class="tk-row"><h3 class="tk-label">Frontend</h3><div class="chips mono"><span class="chip">React</span><span class="chip">Next.js</span><span class="chip">TypeScript</span><span class="chip">JavaScript</span><span class="chip">React Query</span><span class="chip">Redux Toolkit</span><span class="chip">RTK Query</span><span class="chip">react-hook-form</span><span class="chip">Zod</span><span class="chip">Tailwind</span><span class="chip">shadcn</span></div></div>
+      <div class="tk-row"><h3 class="tk-label">Mobile</h3><div class="chips mono"><span class="chip">React Native</span><span class="chip">Expo</span><span class="chip">Flutter</span></div></div>
+      <div class="tk-row"><h3 class="tk-label">Backend</h3><div class="chips mono"><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">MongoDB</span><span class="chip">Mongoose</span><span class="chip">Redis</span><span class="chip">Swagger</span></div></div>
+      <div class="tk-row"><h3 class="tk-label">Cloud &amp; observability</h3><div class="chips mono"><span class="chip">AWS S3</span><span class="chip">AWS EC2</span><span class="chip">Grafana</span><span class="chip">Git</span></div></div>
+      <div class="tk-row"><h3 class="tk-label">AI tools</h3><div class="chips mono"><span class="chip acc">Claude Code</span><span class="chip acc">Cursor</span><span class="chip acc">Codex</span></div></div>
+      <div class="tk-row"><h3 class="tk-label">Analytics</h3><div class="chips mono"><span class="chip">Google Analytics</span><span class="chip">CleverTap</span><span class="chip">MoEngage</span></div></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="wrap contact" id="contact">
+    <p class="eyebrow mono">Contact</p>
+    <h2 class="h2">Got something that needs to be fast?</h2>
+    <p class="sub">I’m open to interesting problems, collaborations and conversations. The quickest way to reach me is email.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="mailto:rohitcnfsecond@gmail.com"><svg width="16" height="16" aria-hidden="true"><use href="#i-mail"/></svg> Say hello</a>
+      <!-- TODO: add assets/resume.pdf -->
+      <a class="btn btn-ghost" href="assets/resume.pdf" target="_blank" rel="noopener">Download résumé</a>
+    </div>
+    <div class="socials mono">
+      <a href="https://www.linkedin.com/in/rohitcnf/">LinkedIn <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
+      <a href="https://github.com/ROHITCNF">GitHub <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
+      <a href="https://x.com/cnf_rohit">X / Twitter <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap foot">
+  <span>© <span id="year">2026</span> Rohit Srivastava</span>
+  <span class="mono">Built in Bengaluru · v1.0</span>
+</footer>
+
+</body>
+</html>
