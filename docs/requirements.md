@@ -133,7 +133,7 @@ Blog, CMS, contact form, analytics/tracking (decided: none), i18n, JS scroll-ani
 /main.js
 /assets/fonts/      Geist*.woff2
 /assets/img/        project screenshots, og.png, favicon.svg
-/assets/resume.pdf
+/assets/resume/       Rohit_Srivastava_Resume.pdf
 /docs/              intent, spec, requirements, design ref
 ```
 
