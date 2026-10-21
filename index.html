@@ -73,10 +73,10 @@
       <a class="btn btn-ghost" href="#journey">Walk the journey</a>
     </div>
     <div class="socials mono in5">
-      <a href="https://www.linkedin.com/in/rohitcnf/">LinkedIn <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
-      <a href="https://github.com/ROHITCNF">GitHub <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
-      <a href="https://x.com/cnf_rohit">X / Twitter <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
-      <a href="mailto:rohitcnfsecond@gmail.com">Email <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
+      <a href="https://www.linkedin.com/in/rohitcnf/" target="_blank" rel="noopener">LinkedIn <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
+      <a href="https://github.com/ROHITCNF" target="_blank" rel="noopener">GitHub <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
+      <a href="https://x.com/cnf_rohit" target="_blank" rel="noopener">X / Twitter <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
+      <a href="mailto:rohitcnfsecond@gmail.com" target="_blank" rel="noopener">Email <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
     </div>
   </section>
 
@@ -98,13 +98,38 @@
 
     <div class="work-grid">
       <article class="card wide rv">
+        <div class="media carousel" role="region" aria-roledescription="carousel" aria-label="AI Gateway Console screenshots">
+          <div class="slides" tabindex="0">
+            <img src="assets/Projects/ai_gateway_console/live-requests.png" alt="Live Requests: streaming table of AI requests with feature, model, status, latency, tokens and cost" width="1916" height="956" loading="lazy">
+            <img src="assets/Projects/ai_gateway_console/cost-speed.png" alt="Cost and Speed: total spend, request count, spend and latency charts, spend by model and by feature" width="1911" height="956" loading="lazy">
+            <img src="assets/Projects/ai_gateway_console/routing.png" alt="Routing: main and backup model per feature, changed through a review step" width="1911" height="949" loading="lazy">
+            <img src="assets/Projects/ai_gateway_console/history.png" alt="History: confirmed routing changes with estimated cost change and undo" width="1910" height="950" loading="lazy">
+          </div>
+          <div class="car-ctrl">
+            <button type="button" class="car-btn" data-dir="-1" aria-label="Previous screenshot">‹</button>
+            <span class="car-dots" aria-hidden="true"></span>
+            <button type="button" class="car-btn" data-dir="1" aria-label="Next screenshot">›</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="pill mono">Side project · AI</span>
+          <h3 class="card-title">AI Gateway Console</h3>
+          <p class="card-text">Web console to monitor AI requests across models, track cost and latency per model and feature, and change model routing safely with a review-and-confirm step.</p>
+          <div class="chips mono"><span class="chip">React</span><span class="chip">TypeScript</span><span class="chip">Monorepo (UI + API)</span><span class="chip">Postgres (Neon)</span></div>
+          <div class="links">
+            <a href="https://ai-gateway-console-1.onrender.com/" target="_blank" rel="noopener">Live demo <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a href="https://github.com/ROHITCNF/ai-gateway-console" target="_blank" rel="noopener">Code <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card wide rv">
         <div class="media">
           <!-- TODO: replace with <img src="assets/img/paper-trading.webp" alt="…" width="…" height="…" loading="lazy"> -->
           <svg class="chart" viewBox="0 0 400 200" preserveAspectRatio="none" aria-hidden="true">
             <path d="M0 160 L40 140 L80 150 L120 110 L160 120 L200 80 L240 95 L280 60 L320 70 L360 35 L400 45" fill="none" stroke="var(--accent)" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>
             <path d="M0 175 L40 168 L80 172 L120 150 L160 156 L200 135 L240 142 L280 120 L320 126 L360 104 L400 110" fill="none" stroke="var(--line)" stroke-width="2" vector-effect="non-scaling-stroke" stroke-dasharray="4 6"/>
           </svg>
-          <span class="media-note mono">[ Add screenshot or demo GIF ]</span>
         </div>
         <div class="card-body">
           <span class="pill mono">Side project · AI</span>
@@ -114,18 +139,17 @@
             <span class="chip">Next.js</span><span class="chip">React</span><span class="chip">Express</span><span class="chip">MongoDB</span><span class="chip">Redis</span><span class="chip">Fyers SDK</span><span class="chip">Gemini AI</span>
           </div>
           <div class="links">
-            <a href="https://your-paper-trading-link">Live demo <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
-            <a href="https://github.com/your-handle/paper-trading">Code <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a aria-disabled="true" title="Link coming soon">Live demo <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a aria-disabled="true" title="Link coming soon">Code <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
           </div>
         </div>
       </article>
 
-      <article class="card rv">
+      <article class="card wide rv">
         <div class="media">
           <div class="lab-lines sharp" aria-hidden="true">
             <span style="width:40%"></span><span style="width:85%"></span><span style="width:70%"></span><span style="width:78%"></span>
           </div>
-          <span class="media-note mono">[ Add extension screenshot ]</span>
         </div>
         <div class="card-body">
           <span class="pill mono">Chrome extension · DevTools</span>
@@ -133,27 +157,9 @@
           <p class="card-text">View and manage Local Storage, Session Storage and Cookies in a clean, interactive UI — one click instead of digging through DevTools.</p>
           <div class="chips mono"><span class="chip">JavaScript</span><span class="chip">Chrome APIs</span></div>
           <div class="links">
-            <a href="https://your-chrome-store-link">Install <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
-            <a href="https://github.com/your-handle/web-storage-extension">Code <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a aria-disabled="true" title="Link coming soon">Install <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a aria-disabled="true" title="Link coming soon">Code <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
           </div>
-        </div>
-      </article>
-
-      <article class="card rv">
-        <div class="media">
-          <div class="blob blob-a" aria-hidden="true"></div>
-          <div class="blob blob-b" aria-hidden="true"></div>
-          <div class="lab-lines" aria-hidden="true">
-            <span style="width:55%"></span><span style="width:90%"></span><span style="width:72%"></span>
-          </div>
-          <span class="media-note mono">In the lab</span>
-        </div>
-        <div class="card-body">
-          <span class="pill mono">In development</span>
-          <h3 class="card-title">[ Next project name ]</h3>
-          <p class="card-text">[ One line on the problem it solves. This card flips to a full project once it ships. ]</p>
-          <div class="progress" role="img" aria-label="About 40% complete" style="--p:40%"><span></span></div>
-          <div class="chips mono"><span class="chip">[ Stack ]</span><span class="chip">ETA [ Month ]</span></div>
         </div>
       </article>
     </div>
@@ -327,13 +333,13 @@
     <h2 class="h2">Got something that needs to be fast?</h2>
     <p class="sub">I’m open to interesting problems, collaborations and conversations. The quickest way to reach me is email.</p>
     <div class="cta-row">
-      <a class="btn btn-primary" href="mailto:rohitcnfsecond@gmail.com"><svg width="16" height="16" aria-hidden="true"><use href="#i-mail"/></svg> Say hello</a>
+      <a class="btn btn-primary" href="mailto:rohitcnfsecond@gmail.com" target="_blank" rel="noopener"><svg width="16" height="16" aria-hidden="true"><use href="#i-mail"/></svg> Say hello</a>
       <a class="btn btn-ghost" href="assets/resume/Rohit_Srivastava_Resume.pdf" download="Rohit_Srivastava_Resume.pdf">Download résumé</a>
     </div>
     <div class="socials mono">
-      <a href="https://www.linkedin.com/in/rohitcnf/">LinkedIn <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
-      <a href="https://github.com/ROHITCNF">GitHub <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
-      <a href="https://x.com/cnf_rohit">X / Twitter <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
+      <a href="https://www.linkedin.com/in/rohitcnf/" target="_blank" rel="noopener">LinkedIn <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
+      <a href="https://github.com/ROHITCNF" target="_blank" rel="noopener">GitHub <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
+      <a href="https://x.com/cnf_rohit" target="_blank" rel="noopener">X / Twitter <svg width="13" height="13" aria-hidden="true"><use href="#i-out"/></svg></a>
     </div>
   </section>
 
