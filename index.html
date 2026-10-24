@@ -124,23 +124,27 @@
       </article>
 
       <article class="card wide rv">
-        <div class="media">
-          <!-- TODO: replace with <img src="assets/img/paper-trading.webp" alt="…" width="…" height="…" loading="lazy"> -->
-          <svg class="chart" viewBox="0 0 400 200" preserveAspectRatio="none" aria-hidden="true">
-            <path d="M0 160 L40 140 L80 150 L120 110 L160 120 L200 80 L240 95 L280 60 L320 70 L360 35 L400 45" fill="none" stroke="var(--accent)" stroke-width="2.5" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>
-            <path d="M0 175 L40 168 L80 172 L120 150 L160 156 L200 135 L240 142 L280 120 L320 126 L360 104 L400 110" fill="none" stroke="var(--line)" stroke-width="2" vector-effect="non-scaling-stroke" stroke-dasharray="4 6"/>
-          </svg>
+        <div class="media carousel" role="region" aria-roledescription="carousel" aria-label="Trading Strategy Backtester screenshots">
+          <div class="slides" tabindex="0">
+            <img src="assets/Projects/trade_backtesting/Login.png" alt="Login screen for the backtester" width="1911" height="955" loading="lazy">
+            <img src="assets/Projects/trade_backtesting/dashboard.png" alt="Run dashboard: trade count, win rate, P&amp;L, profit factor, drawdown, per-symbol stats and equity curve" width="1902" height="943" loading="lazy">
+            <img src="assets/Projects/trade_backtesting/trade%20analyse.png" alt="Trade analysis: 1-minute candle chart with opening range, entry, stop and target lines, trade details and trades table" width="1891" height="945" loading="lazy">
+            <img src="assets/Projects/trade_backtesting/backtest.png" alt="New backtest form: date range, watchlist or symbol picker, direction, opening range, stop and target settings" width="1900" height="944" loading="lazy">
+          </div>
+          <div class="car-ctrl">
+            <button type="button" class="car-btn" data-dir="-1" aria-label="Previous screenshot">‹</button>
+            <span class="car-dots" aria-hidden="true"></span>
+            <button type="button" class="car-btn" data-dir="1" aria-label="Next screenshot">›</button>
+          </div>
         </div>
         <div class="card-body">
-          <span class="pill mono">Side project · AI</span>
-          <h3 class="card-title">Paper Trading Platform</h3>
-          <p class="card-text">Trade live markets with virtual money, backtest strategies on historical data, and get AI-powered insight on every move — practice without the risk.</p>
-          <div class="chips mono">
-            <span class="chip">Next.js</span><span class="chip">React</span><span class="chip">Express</span><span class="chip">MongoDB</span><span class="chip">Redis</span><span class="chip">Fyers SDK</span><span class="chip">Gemini AI</span>
-          </div>
+          <span class="pill mono">Side project · Trading</span>
+          <h3 class="card-title">Trading Strategy Backtester</h3>
+          <p class="card-text">Dashboard to backtest a trading strategy on single or multiple tickers using Fyers stock broker data, and analyse its performance to improve trading decisions.</p>
+          <div class="chips mono"><span class="chip">React</span><span class="chip">Node</span><span class="chip">Express</span><span class="chip">Postgres (Neon)</span><span class="chip">Fyers Broker SDK</span></div>
           <div class="links">
-            <a aria-disabled="true" title="Link coming soon">Live demo <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
-            <a aria-disabled="true" title="Link coming soon">Code <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a href="https://orb-lab-web.onrender.com/" target="_blank" rel="noopener">Live demo <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
+            <a href="https://github.com/ROHITCNF/Trade_backtracking" target="_blank" rel="noopener">Code <svg width="14" height="14" aria-hidden="true"><use href="#i-out"/></svg></a>
           </div>
         </div>
       </article>
